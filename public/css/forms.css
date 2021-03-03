@@ -1,0 +1,73 @@
+
+.alert-validate::before {
+  content: attr(data-validate);
+  position: absolute;
+  max-width: 90%;
+  background-color: #fff;
+  border: 1px solid #ee2f2f;
+  border-radius: 3px;
+  padding: 4px 25px 5px 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 12px;
+  pointer-events: none;
+  color: #ee2f2f;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+.alert-validate::after {
+  content: "\0021";
+  display: block;
+  position: absolute;
+  color: #ee2f2f;
+  font-size: 18px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 18px;
+}
+
+.alert-validate:hover:before {visibility:visible;opacity:1;}
+
+@media (max-width: 992px) {
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+.validate-input {position:relative;}
+
+.toast-wrapper {margin:5px 12px !important;}
+.toast {z-index:9999}
+.toast > .toast-body {padding:0;font-size:16px;}
+.toast > .toast-body > .alert {margin-bottom:0;}
+.toast {border: 1px solid #ccc;}
+.toast > i {color:#fff;display:inline;float:left;margin:14px 3px;}
+.toast > .toast-body {margin:5px 20px; padding: 10px;}
+.fade {transition:opacity 0.5s linear !important;}
+
+.btn-blocked {pointer-events:none; opacity:0.85;}
+.onoff {
+  text-transform: capitalize;
+  margin-left: 10px;
+  border: 1px solid #cfcfcf;
+  padding: 3px 6px 3px 4px;
+  border-radius: .25rem;
+  background-color: #fff;
+  color: #333;
+}

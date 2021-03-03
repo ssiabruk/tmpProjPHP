@@ -1,0 +1,13 @@
+
+/*.container {padding: 10px 0;}*/
+
+.sync-info {
+  text-align: center;
+  font-weight: bold;
+  padding: 0 15px;
+  margin-top: 30px;
+}
+
+.btn > i.material-icons {vertical-align: middle;padding-right: 10px;}
+
+.input-group-text {width: 125px;}

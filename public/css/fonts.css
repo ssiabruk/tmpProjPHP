@@ -1,0 +1,52 @@
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  src: url(/fonts/ptsans/PTSans-Regular.eot);
+  src: local('PT Sans'),
+       local('PTSans-Regular'),
+       url(/fonts/ptsans/PTSans-Regular.woff2) format('woff2'),
+       url(/fonts/ptsans/PTSans-Regular.woff) format('woff'),
+       url(/fonts/ptsans/PTSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  src: url(/fonts/ptsans/PTSans-Italic.eot);
+  src: local('PT Sans Italic'),
+       local('PTSans-Italic'),
+       url(/fonts/ptsans/PTSans-Italic.woff2) format('woff2'),
+       url(/fonts/ptsans/PTSans-Italic.woff) format('woff'),
+       url(/fonts/ptsans/PTSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  src: url(/fonts/ptsans/PTSans-Bold.eot);
+  src: local('PT Sans Bold'),
+       local('PTSans-Bold'),
+       url(/fonts/ptsans/PTSans-Bold.woff2) format('woff2'),
+       url(/fonts/ptsans/PTSans-Bold.woff) format('woff'),
+       url(/fonts/ptsans/PTSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 700;
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  src: url(/fonts/ptsans/PTSans-Italic.eot);
+  src: local('PT Sans Bold Italic'),
+       local('PTSans-BoldItalic'),
+       url(/fonts/ptsans/PTSans-Italic.woff2) format('woff2'),
+       url(/fonts/ptsans/PTSans-Italic.woff) format('woff'),
+       url(/fonts/ptsans/PTSans-Italic.ttf) format('truetype');
+}

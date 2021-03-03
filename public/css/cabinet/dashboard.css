@@ -1,0 +1,90 @@
+
+/*html, body {height: 100%;}
+
+.container {
+  min-width: 578px;
+  padding: 10px 0;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-area {
+  flex: 0.9;
+}
+
+.bottom-area {
+  height: 101px;
+}
+
+.work-area {
+  min-height: 450px;
+}
+
+.top-area > .row {
+  min-height: 100%;
+}
+
+.top-area > .row > .left-area {
+  flex-direction: column;
+  min-height: 100%;
+  flex: 1;
+}
+
+.top-area > .row > .left-area > .card {
+  min-height: 100%;
+}
+
+.top-area > .row > .right-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.tele-data {
+  flex: 1;
+}
+
+.tele-area {
+  text-align: left;
+  font-size: 1.2rem;
+  min-height: 320px;
+}
+
+.top-area > .row > .right-area > .tele-data > .card {
+  min-height: 100%;
+}
+
+.top-area > .row > .right-area > .tele-data > .card > .card-body {
+  padding: 0.5rem 1rem !important;
+}
+
+#tele-data-area {margin: 0;}
+
+.tech-title {min-height: 35px;}
+
+#tele-update {
+  -webkit-box-shadow:inset 0px 0px 0px 1px #ddd;
+  -moz-box-shadow:inset 0px 0px 0px 1px #ddd;
+  box-shadow:inset 0px 0px 0px 1px #ddd;
+}
+
+.admin-btns {margin:55px 15px 0 15px}
+*/
+#alert-result ul {
+  padding-left: 15px;
+}
+
+div[id^='map-area-'] {
+  height: 350px;
+}
+
+.realtime {
+  padding: 0.5rem;
+  font-size: 12px;
+}

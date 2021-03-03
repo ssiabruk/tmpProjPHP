@@ -1,0 +1,42 @@
+{
+    "res20": {
+        "record": {
+            "param": "20mp_png",
+            "en": "Recording",
+            "uk": "Запис",
+            "ru": "Запись"
+        },
+        "recdet": {
+            "param": "20mp_raw",
+            "en": "Record and detection",
+            "uk": "Запис і детектування",
+            "ru": "Запись и детектирование"
+        },
+        "file": {
+            "param": "file",
+            "en": "Demo mode",
+            "uk": "Демо-режим",
+            "ru": "Демо-режим"
+        }
+    },
+    "res12": {
+        "record": {
+            "param": "12mp_png",
+            "en": "Recording",
+            "uk": "Запис",
+            "ru": "Запись"
+        },
+        "recdet": {
+            "param": "12mp_raw",
+            "en": "Record and detection",
+            "uk": "Запис і детектування",
+            "ru": "Запись и детектирование"
+        },
+        "file": {
+            "param": "file",
+            "en": "Demo mode",
+            "uk": "Демо-режим",
+            "ru": "Демо-режим"
+        }
+    }
+}

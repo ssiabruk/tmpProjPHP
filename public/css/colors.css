@@ -1,0 +1,36 @@
+
+.grey {color: #adb5bd}
+
+select option[value="red"] {color: #f44336;font-weight: bold;}
+.fgc-red {color: #f44336;}
+.bgc-red {background: #f44336;}
+
+select option[value="pink"] {color: #f06292;font-weight: bold;}
+.fgc-pink {color: #f06292;}
+.bgc-pink {background: #f06292;}
+
+select option[value="purple"] {color: #9c27b0;font-weight: bold;}
+.fgc-purple {color: #9c27b0;}
+.bgc-purple {background: #9c27b0;}
+
+select option[value="indigo"] {color: #3f51b5;font-weight: bold;}
+.fgc-indigo {color: #3f51b5;}
+.bgc-indigo {background: #3f51b5;}
+
+select option[value="blue"] {color: #2196f3;font-weight: bold;}
+.fgc-blue {color: #2196f3;}
+.bgc-blue {background: #2196f3;}
+
+select option[value="green"] {color: #4caf50;font-weight: bold;}
+.fgc-green {color: #4caf50;}
+.bgc-green {background: #4caf50;}
+
+select option[value="yellow"] {color: #fdd835;font-weight: bold;}
+.fgc-yellow {color: #fdd835;}
+.bgc-yellow {background: #fdd835;}
+
+select option[value="orange"] {color: #ff5722;font-weight: bold;}
+.fgc-orange {color: #ff5722;}
+.bgc-orange {background: #ff5722;}
+
+.circ {padding-top: 9px;padding-right: 14px;margin-left: 10px;}

@@ -1,0 +1,16 @@
+{
+    "require": {
+        "slim/slim": "^3.12",
+        "snicholson/slimfilecache": "~1.0",
+        "maer/csrf": "1.*",
+        "gumlet/php-image-resize": "1.9.2",
+        "phpmailer/phpmailer": "~6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\" : "app/controllers/",
+            "App\\Models\\" : "app/models/",
+            "App\\Libs\\" : "app/libs/"
+        }
+    }
+}

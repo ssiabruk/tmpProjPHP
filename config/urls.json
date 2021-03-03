@@ -1,0 +1,6 @@
+{
+    "image_session": "/stream.cgi?raw=0&det=%det&dir=session/%sid&file=%file",
+    "image_detect": "/stream.cgi?raw=1&det=%det&dir=%dir&file=%file",
+    "stream_record": "/stream.mjpg?live=1&raw=0&size=%size&det=%det",
+    "stream_recdet": "/stream.mjpg?live=1&raw=1&size=%size&det=%det"
+}

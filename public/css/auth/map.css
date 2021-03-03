@@ -1,0 +1,81 @@
+
+body, html {height: 100%; font-family: 'PT Sans', sans-serif; min-width: 578px; padding-top: 5px;}
+
+.card {background-color:#f9f9f9}
+
+.btn > i.material-icons {vertical-align: middle;}
+
+.work-area {
+  height: 645px;
+}
+
+#one-map-area {
+  height: 540px;
+}
+
+.detect-area {
+  height: 90px !important;
+  display: block;
+  margin-bottom: 10px;
+  overflow-y: hidden;
+  border-radius: .25rem;
+}
+
+.detect-desc {
+  z-index: 9995;
+  height: 25px;
+  display: block;
+  background-color: rgba(0,0,0,0.3);
+  /*margin-top: -25px;*/
+  margin-left: 1px;
+  text-align: left;
+  position: absolute;
+  border-radius: .25rem;
+}
+
+.detect-desc > a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 10px;
+  border-radius: .25rem;
+}
+
+.leaflet-popup-content > img {margin-bottom: 10px;}
+.leaflet-popup-content > a {white-space: nowrap;}
+
+.imgWidth {width:350px}
+
+#stream-video-view::after {display: none;}
+#stream-video-area {padding:3px;}
+
+.footer {
+  background-color: #ff5722;
+  height: 32px;
+  color: #fff;
+  margin: 0 1px;
+  border-radius: .25rem;
+}
+
+#controls {background-color:#333;text-align:center}
+
+#controls button {
+  display:inline-block;
+  padding:0 15px;
+  height:50px;
+  line-height:50px;
+  font-size:20px;
+  font-weight:300;
+  color:#999;
+  margin: 0 20px;
+}
+
+#controls button:hover {color:#fff;text-decoration:none}
+
+.disabled, .disabled button {
+  color:#666 !important;
+  pointer-events: none;
+}
+
+.panorama {width:auto;height:500px;display: block;}
+
+.footer a {color: #fff;}

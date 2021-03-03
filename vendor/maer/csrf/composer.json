@@ -1,0 +1,26 @@
+{
+    "name": "maer/csrf",
+    "description": "A small CSRF package for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Eriksson",
+            "email": "mange@reloop.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maer\\Security\\Csrf\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --strict-coverage --colors=always"
+    }
+}
